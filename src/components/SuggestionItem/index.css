@@ -1,0 +1,28 @@
+/* Write your CSS here */
+* {
+  font-family: roboto;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.arrow-img {
+  height: 20px;
+  width: 20px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .arrow-img {
+    height: 40px;
+    width: 40px;
+  }
+  .sugg-list {
+    font-size: 30px;
+  }
+}
